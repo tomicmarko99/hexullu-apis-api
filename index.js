@@ -6,6 +6,9 @@ const PORT = process.env.PORT || 8000;
 
 const app = express();
 
+var cors = require("cors");
+app.use(cors());
+
 const hexullu = [];
 
 axios
